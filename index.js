@@ -5,12 +5,17 @@ app.use(express.urlencoded({extended: true}))
 // app.get('/', (req, res) => res.send('Hello world'))
 
 app.get('/', (req, res) => {
-    var x, y, z;
-    x = 7;
-    y = 3;
-    z = x + y;
+    // var x, y, z;
+    // x = 7;
+    // y = 3;
+    // z = x + y;
+    var cars = [
+        "Saab",
+        "Volvo",
+        "BMW"
+      ];
 
-    return res.send("The value of z is " + z + ".")
+    return res.send("Macam-macam mobil yakni " + cars)
 })
 
 app.post('/', (req, res) => {
