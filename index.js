@@ -7,7 +7,7 @@ app.use(express.urlencoded({extended: true}))
 app.get('/', (req, res) => {
     var x, y, z;
     x = 7;
-    y = 8;
+    y = 3;
     z = x + y;
 
     return res.send("The value of z is " + z + ".")
