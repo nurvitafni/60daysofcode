@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }))
 // })
 
 app.get('/task1', (req, res) => {
-	let warna = ["Purple", "Blue", "Yellow", "Green"]
+	let warna = ["Grey", "Blue", "Yellow", "Green"]
 	
 	let hasil = array_sort.ascending_sort(warna)
 
@@ -21,7 +21,7 @@ app.get('/task1', (req, res) => {
 })
 
 app.get('/task2', (req, res) => {
-	let warna = ["Purple", "Blue", "Yellow", "Green"]
+	let warna = ["Grey", "Blue", "Yellow", "Green"]
 
 	let hasil = array_sort.descending_sort(warna)
 
